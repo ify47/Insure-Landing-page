@@ -258,6 +258,10 @@ p {
     color: hsl(273, 4%, 51%);
 }
 
+.socials:hover{
+    filter: brightness(0) saturate(100%);
+}
+
 
 @media (max-width: 1286px) {
     .headd {
