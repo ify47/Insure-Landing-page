@@ -262,6 +262,11 @@ p {
     filter: brightness(0) saturate(100%);
 }
 
+.footer-list:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 @media (max-width: 1286px) {
     .headd {
