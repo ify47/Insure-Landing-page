@@ -99,7 +99,7 @@ p {
 }
 
 .headin-h {
-    font-size: calc(4rem + 1.5vw);
+    font-size: calc(3rem + 1.3vw);
 }
 
 .h-secondary {
@@ -136,7 +136,7 @@ p {
 }
 
 .img-intro {
-    width: 576px;
+    width: 93%;
     margin-left: 8px;
 }
 
@@ -183,23 +183,24 @@ p {
     background-color: hsl(256, 26%, 20%);
     color: white;
     height: 250px;
-    width: 80%;
-    margin-left: 143px;
+    width: 84%;
+    margin: auto;
+    align-items: center;
     position: relative;
     overflow: hidden;
 }
 
 .third-heading {
-    font-size: 3rem;
+    font-size: 3.5vw;
 }
 
 .my-3custom {
-    margin: 3.5rem 119px 1rem 88px;
+    margin-left: 6%;
 }
 
 .span-head {
-    padding-top: 46px;
     z-index: 4;
+    margin-right: 6%;
 }
 
 .third-plan {
@@ -234,6 +235,7 @@ p {
     background-color: hsl(0, 0%, 98%);
     margin-top: 10rem;
     font-family: 'Karla', sans-serif;
+    font-size: 0.84rem;
     text-transform: uppercase;
     color: hsl(256, 26%, 20%);
     line-height: 2;
@@ -267,54 +269,6 @@ p {
     cursor: pointer;
 }
 
-
-@media (max-width: 1286px) {
-    .headd {
-        padding-top: 177px;
-        padding-left: 45px;
-    }
-
-    .headin-p {
-        font-size: 1em;
-        margin-right: -7px;
-    }
-
-    .headin-h {
-        font-size: calc(2.4rem + 1.5vw);
-    }
-
-    .img-intro {
-        width: 482px;
-        margin-left: 7px;
-    }
-
-    .list-space {
-        margin-right: 12px;
-        font-size: 0.9rem;
-    }
-
-    .third-head {
-        width: 84%;
-        margin-left: 86px;
-    }
-
-}
-
-@media (max-width: 1200px) {
-
-    .third-heading {
-        font-size: 2.7rem;
-    }
-
-    .my-3custom {
-        margin: 3.5rem 86px 1rem 40px;
-    }
-
-    .custom-container {
-        padding: 0 61px 0 63px;
-    }
-
-}
 
 @media (max-width: 992px) {
     .navcustoms {
@@ -367,10 +321,6 @@ p {
         margin-right: 0;
     }
 
-    .img-intro {
-        width: 327px;
-        margin-left: 7px;
-    }
 
     .intro-right-img {
         width: 319px;
@@ -379,18 +329,6 @@ p {
     .third-head {
         margin-left: 0;
         margin: auto;
-    }
-
-    .third-heading {
-        font-size: 1.5rem;
-    }
-
-    .my-3custom {
-        margin-top: 5.5rem;
-    }
-
-    .span-head {
-        padding-top: 20px;
     }
 }
 
@@ -407,9 +345,6 @@ p {
         margin-top: -12px;
     }
 
-    .img-intro {
-        width: 302px;
-    }
 
     .line-dark,
     .custom-second {
@@ -417,22 +352,8 @@ p {
         text-align: center;
     }
 
-    .my-3custom {
-        margin-top: 6.5rem;
-        margin-left: 33px;
-    }
-
-    .span-head {
-        padding-top: 8px;
-        margin-right: 36px;
-    }
-
     .custom-second {
         padding: 0;
-    }
-
-    .third-heading {
-        font-size: 1rem;
     }
 
     .third-plan {
@@ -445,6 +366,7 @@ p {
 
     .custom-container {
         text-align: center;
+        padding: 0;
     }
 
 }
@@ -538,6 +460,11 @@ p {
         font-size: 2rem;
     }
 
+    .span-head{
+        text-align: center;
+        margin:  45px 0 0 0;
+    }
+
     .third-svg-mobile {
         display: block;
         position: absolute;
@@ -588,8 +515,5 @@ p {
         margin: 0 10px;
     }
 
-    .third-head {
-        width: 78%;
-    }
 
 }
